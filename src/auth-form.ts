@@ -6,7 +6,8 @@ export type AuthFormElement =
   | "emailError"
   | "passwordInput"
   | "passwordError"
-  | "sumbitButton";
+  | "submitButton"
+  | "link";
 
 export type AuthFormTestIds = Record<AuthFormElement, string>;
 
@@ -16,7 +17,8 @@ export const signupFormTestIds: AuthFormTestIds = {
   emailError: "signup-form-email-error",
   passwordInput: "signup-form-password-input",
   passwordError: "signup-form-password-error",
-  sumbitButton: "signup-form-submit-button",
+  submitButton: "signup-form-submit-button",
+  link: "signup-form-link",
 };
 
 export const signupFormTestIdSelectors = makeTestIdSelectors(signupFormTestIds);
@@ -27,7 +29,8 @@ export const signinFormTestIds: AuthFormTestIds = {
   emailError: "signin-form-email-error",
   passwordInput: "signin-form-password-input",
   passwordError: "signin-form-password-error",
-  sumbitButton: "signin-form-submit-button",
+  submitButton: "signin-form-submit-button",
+  link: "signin-form-link",
 };
 
 export const signinFormTestIdSelectors = makeTestIdSelectors(signinFormTestIds);
