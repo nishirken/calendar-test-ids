@@ -2,10 +2,12 @@
   "name": "calendar-test-ids",
   "version": "1.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
-    "lint": "eslint ./src --ext .ts,.tsx --quiet"
+    "lint": "eslint ./src --ext .ts,.tsx --quiet",
+    "postinstall": "tsc"
   },
   "keywords": [],
   "author": "Dmitrii Skurikhin",
@@ -16,10 +18,9 @@
     "@typescript-eslint/parser": "5.19.0",
     "eslint": "8.13.0",
     "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-prettier": "4.2.1",
     "prettier-eslint": "13.0.0",
-    "test-ids": "^1.2.0",
-    "ts-node": "10.7.0",
+    "test-ids": "1.2.1",
     "typescript": "4.7.4"
   }
 }
