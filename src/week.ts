@@ -1,7 +1,7 @@
 import { makeTestIdSelectors } from "test-ids";
 
 export const weekTestIds = {
-    root: 'week',
+  root: "week",
 };
 
 export const weekTestIdSelectors = makeTestIdSelectors(weekTestIds);
