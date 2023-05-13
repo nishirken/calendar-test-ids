@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint ./src --ext .ts,.tsx --quiet",
-    "postinstall": "tsc"
+    "install": "tsc"
   },
   "keywords": [],
   "author": "Dmitrii Skurikhin",
@@ -20,7 +20,7 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.2.1",
     "prettier-eslint": "13.0.0",
-    "test-ids": "1.2.1",
+    "test-ids": "2.2.1",
     "typescript": "4.7.4"
   }
 }

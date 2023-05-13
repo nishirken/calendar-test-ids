@@ -2,7 +2,9 @@
   "extends": "@tsconfig/node18/tsconfig.json",
   "compilerOptions": {
     "declaration": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "module": "ES6",
+    "target": "ES6"
   },
   "exclude": [
     "node_modules",
